@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "SPLASH SCREEN.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

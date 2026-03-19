@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1849C0212F5DE77800D607BC /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 1849C0202F5DE77800D607BC /* GoogleMobileAds */; };
+		18721BB02F509B0D00930871 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 18721BAF2F509B0D00930871 /* FirebaseAnalytics */; };
+		18721BB22F509B0D00930871 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 18721BB12F509B0D00930871 /* FirebaseCrashlytics */; };
+		18721BB42F509B0D00930871 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 18721BB32F509B0D00930871 /* FirebaseMessaging */; };
+		18721BB62F509B0D00930871 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 18721BB52F509B0D00930871 /* FirebaseRemoteConfig */; };
+		18721BB82F509B0D00930871 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 18721BB72F509B0D00930871 /* FirebaseStorage */; };
+		18721BC42F50A87700930871 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 18721BC32F50A87700930871 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183374712F4DF90900F8D2FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183374582F4DF90800F8D2FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1833745F2F4DF90800F8D2FA;
+			remoteInfo = "AiLogo Maker";
+		};
+		1833747B2F4DF90900F8D2FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183374582F4DF90800F8D2FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1833745F2F4DF90800F8D2FA;
+			remoteInfo = "AiLogo Maker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183374602F4DF90800F8D2FA /* AiLogo Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AiLogo Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183374702F4DF90900F8D2FA /* AiLogo MakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AiLogo MakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833747A2F4DF90900F8D2FA /* AiLogo MakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AiLogo MakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		183374622F4DF90800F8D2FA /* AiLogo Maker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AiLogo Maker";
+			sourceTree = "<group>";
+		};
+		183374732F4DF90900F8D2FA /* AiLogo MakerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AiLogo MakerTests";
+			sourceTree = "<group>";
+		};
+		1833747D2F4DF90900F8D2FA /* AiLogo MakerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AiLogo MakerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1833745D2F4DF90800F8D2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18721BC42F50A87700930871 /* SDWebImageSwiftUI in Frameworks */,
+				18721BB42F509B0D00930871 /* FirebaseMessaging in Frameworks */,
+				18721BB02F509B0D00930871 /* FirebaseAnalytics in Frameworks */,
+				18721BB22F509B0D00930871 /* FirebaseCrashlytics in Frameworks */,
+				18721BB82F509B0D00930871 /* FirebaseStorage in Frameworks */,
+				18721BB62F509B0D00930871 /* FirebaseRemoteConfig in Frameworks */,
+				1849C0212F5DE77800D607BC /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833746D2F4DF90900F8D2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183374772F4DF90900F8D2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183374572F4DF90800F8D2FA = {
+			isa = PBXGroup;
+			children = (
+				183374622F4DF90800F8D2FA /* AiLogo Maker */,
+				183374732F4DF90900F8D2FA /* AiLogo MakerTests */,
+				1833747D2F4DF90900F8D2FA /* AiLogo MakerUITests */,
+				183374612F4DF90800F8D2FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183374612F4DF90800F8D2FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183374602F4DF90800F8D2FA /* AiLogo Maker.app */,
+				183374702F4DF90900F8D2FA /* AiLogo MakerTests.xctest */,
+				1833747A2F4DF90900F8D2FA /* AiLogo MakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1833745F2F4DF90800F8D2FA /* AiLogo Maker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183374842F4DF90900F8D2FA /* Build configuration list for PBXNativeTarget "AiLogo Maker" */;
+			buildPhases = (
+				1833745C2F4DF90800F8D2FA /* Sources */,
+				1833745D2F4DF90800F8D2FA /* Frameworks */,
+				1833745E2F4DF90800F8D2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				183374622F4DF90800F8D2FA /* AiLogo Maker */,
+			);
+			name = "AiLogo Maker";
+			packageProductDependencies = (
+				18721BAF2F509B0D00930871 /* FirebaseAnalytics */,
+				18721BB12F509B0D00930871 /* FirebaseCrashlytics */,
+				18721BB32F509B0D00930871 /* FirebaseMessaging */,
+				18721BB52F509B0D00930871 /* FirebaseRemoteConfig */,
+				18721BB72F509B0D00930871 /* FirebaseStorage */,
+				18721BC32F50A87700930871 /* SDWebImageSwiftUI */,
+				1849C0202F5DE77800D607BC /* GoogleMobileAds */,
+			);
+			productName = "AiLogo Maker";
+			productReference = 183374602F4DF90800F8D2FA /* AiLogo Maker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1833746F2F4DF90900F8D2FA /* AiLogo MakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183374872F4DF90900F8D2FA /* Build configuration list for PBXNativeTarget "AiLogo MakerTests" */;
+			buildPhases = (
+				1833746C2F4DF90900F8D2FA /* Sources */,
+				1833746D2F4DF90900F8D2FA /* Frameworks */,
+				1833746E2F4DF90900F8D2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183374722F4DF90900F8D2FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				183374732F4DF90900F8D2FA /* AiLogo MakerTests */,
+			);
+			name = "AiLogo MakerTests";
+			packageProductDependencies = (
+			);
+			productName = "AiLogo MakerTests";
+			productReference = 183374702F4DF90900F8D2FA /* AiLogo MakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183374792F4DF90900F8D2FA /* AiLogo MakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833748A2F4DF90900F8D2FA /* Build configuration list for PBXNativeTarget "AiLogo MakerUITests" */;
+			buildPhases = (
+				183374762F4DF90900F8D2FA /* Sources */,
+				183374772F4DF90900F8D2FA /* Frameworks */,
+				183374782F4DF90900F8D2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1833747C2F4DF90900F8D2FA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1833747D2F4DF90900F8D2FA /* AiLogo MakerUITests */,
+			);
+			name = "AiLogo MakerUITests";
+			packageProductDependencies = (
+			);
+			productName = "AiLogo MakerUITests";
+			productReference = 1833747A2F4DF90900F8D2FA /* AiLogo MakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183374582F4DF90800F8D2FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1833745F2F4DF90800F8D2FA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1833746F2F4DF90900F8D2FA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1833745F2F4DF90800F8D2FA;
+					};
+					183374792F4DF90900F8D2FA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1833745F2F4DF90800F8D2FA;
+					};
+				};
+			};
+			buildConfigurationList = 1833745B2F4DF90800F8D2FA /* Build configuration list for PBXProject "AiLogo Maker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183374572F4DF90800F8D2FA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				18721BAE2F509B0D00930871 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				18721BC22F50A87700930871 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				1849C01F2F5DE77800D607BC /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 183374612F4DF90800F8D2FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1833745F2F4DF90800F8D2FA /* AiLogo Maker */,
+				1833746F2F4DF90900F8D2FA /* AiLogo MakerTests */,
+				183374792F4DF90900F8D2FA /* AiLogo MakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1833745E2F4DF90800F8D2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833746E2F4DF90900F8D2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183374782F4DF90900F8D2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1833745C2F4DF90800F8D2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833746C2F4DF90900F8D2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183374762F4DF90900F8D2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183374722F4DF90900F8D2FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1833745F2F4DF90800F8D2FA /* AiLogo Maker */;
+			targetProxy = 183374712F4DF90900F8D2FA /* PBXContainerItemProxy */;
+		};
+		1833747C2F4DF90900F8D2FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1833745F2F4DF90800F8D2FA /* AiLogo Maker */;
+			targetProxy = 1833747B2F4DF90900F8D2FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		183374822F4DF90900F8D2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183374832F4DF90900F8D2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183374852F4DF90900F8D2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiLogo Maker/Preview Content\"";
+				DEVELOPMENT_TEAM = H23636G6VF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AiLogo-Maker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need permision to store image in gallery";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ch.haris.imageart.AiLogo-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		183374862F4DF90900F8D2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiLogo Maker/Preview Content\"";
+				DEVELOPMENT_TEAM = H23636G6VF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AiLogo-Maker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need permision to store image in gallery";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ch.haris.imageart.AiLogo-Maker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		183374882F4DF90900F8D2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H23636G6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ch.haris.imageart.AiLogo-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiLogo Maker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AiLogo Maker";
+			};
+			name = Debug;
+		};
+		183374892F4DF90900F8D2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H23636G6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ch.haris.imageart.AiLogo-MakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AiLogo Maker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AiLogo Maker";
+			};
+			name = Release;
+		};
+		1833748B2F4DF90900F8D2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H23636G6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ch.haris.imageart.AiLogo-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AiLogo Maker";
+			};
+			name = Debug;
+		};
+		1833748C2F4DF90900F8D2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H23636G6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ch.haris.imageart.AiLogo-MakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AiLogo Maker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1833745B2F4DF90800F8D2FA /* Build configuration list for PBXProject "AiLogo Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183374822F4DF90900F8D2FA /* Debug */,
+				183374832F4DF90900F8D2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183374842F4DF90900F8D2FA /* Build configuration list for PBXNativeTarget "AiLogo Maker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183374852F4DF90900F8D2FA /* Debug */,
+				183374862F4DF90900F8D2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183374872F4DF90900F8D2FA /* Build configuration list for PBXNativeTarget "AiLogo MakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183374882F4DF90900F8D2FA /* Debug */,
+				183374892F4DF90900F8D2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833748A2F4DF90900F8D2FA /* Build configuration list for PBXNativeTarget "AiLogo MakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833748B2F4DF90900F8D2FA /* Debug */,
+				1833748C2F4DF90900F8D2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1849C01F2F5DE77800D607BC /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.1.0;
+			};
+		};
+		18721BAE2F509B0D00930871 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+		18721BC22F50A87700930871 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1849C0202F5DE77800D607BC /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1849C01F2F5DE77800D607BC /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		18721BAF2F509B0D00930871 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18721BAE2F509B0D00930871 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		18721BB12F509B0D00930871 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18721BAE2F509B0D00930871 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		18721BB32F509B0D00930871 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18721BAE2F509B0D00930871 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		18721BB52F509B0D00930871 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18721BAE2F509B0D00930871 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		18721BB72F509B0D00930871 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18721BAE2F509B0D00930871 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		18721BC32F50A87700930871 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18721BC22F50A87700930871 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 183374582F4DF90800F8D2FA /* Project object */;
+}
