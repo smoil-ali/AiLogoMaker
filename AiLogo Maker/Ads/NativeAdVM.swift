@@ -14,7 +14,7 @@ final class NativeAdVM: NSObject, ObservableObject, NativeAdLoaderDelegate, Nati
     private var adLoader: AdLoader!
 
 
-    func loadAb(){
+    func loadRaza(){
         
     }
 
