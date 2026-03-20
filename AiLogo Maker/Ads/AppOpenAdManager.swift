@@ -14,11 +14,6 @@ class AppOpenAdManager: NSObject, FullScreenContentDelegate, ObservableObject {
         var loadTime: Date?
         var isLoadingAd = false
 
-
-    
-    func loadAli(){
-        
-    }
         func loadAd() {
             guard !isLoadingAd && !isAdAvailable() else { return }
             isLoadingAd = true
