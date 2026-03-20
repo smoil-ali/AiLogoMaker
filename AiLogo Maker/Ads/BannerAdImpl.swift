@@ -18,10 +18,6 @@ struct BannerViewContainer: UIViewRepresentable {
       self.adSize = adSize
     }
     
-    func loadSki(){
-        
-    }
-    
     func makeUIView(context: Context) -> BannerView {
       let banner = BannerView(adSize: adSize)
       #if DEBUG
