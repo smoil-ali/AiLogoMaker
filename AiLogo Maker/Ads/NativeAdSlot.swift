@@ -10,6 +10,10 @@ import SwiftUI
 struct NativeAdSlot: View {
     @StateObject private var vm = NativeAdVM()
     let kind: NativeTemplateKind
+    
+    func load3(){
+        
+    }
 
     var body: some View {
         Group {

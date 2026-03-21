@@ -12,6 +12,11 @@ import GoogleMobileAds
 final class NativeAdVM: NSObject, ObservableObject, NativeAdLoaderDelegate, NativeAdDelegate {
     @Published var ad: NativeAd?
     private var adLoader: AdLoader!
+    
+    
+    func loadOne(){
+        
+    }
 
 
     func loadRaza(){
