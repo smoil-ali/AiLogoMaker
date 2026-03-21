@@ -10,6 +10,10 @@ import GoogleMobileAds
 
 class InterstitialViewModel: NSObject, FullScreenContentDelegate {
   private var interstitialAd: InterstitialAd?
+    
+    func loadInter(){
+        print("inter")
+    }
 
   func loadAd() async {
     do {
