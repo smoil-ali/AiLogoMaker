@@ -15,7 +15,7 @@ final class NativeAdVM: NSObject, ObservableObject, NativeAdLoaderDelegate, Nati
     
     
     func loadOne(){
-        
+        print("hello princess")
     }
 
 

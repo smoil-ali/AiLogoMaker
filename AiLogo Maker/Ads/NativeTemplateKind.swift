@@ -24,10 +24,6 @@ struct NativeTemplateView: UIViewRepresentable {
           owner: nil,
           options: nil)?.first as! NativeAdView
     }
-    
-    func load2() {
-        
-    }
 
     func updateUIView(_ nativeAdView: NativeAdView, context: Context) {
         
