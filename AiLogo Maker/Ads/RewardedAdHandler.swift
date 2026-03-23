@@ -17,10 +17,6 @@ final class RewardedAdHandler: NSObject, ObservableObject, FullScreenContentDele
     private var continuation: CheckedContinuation<Bool, Never>?
     private var earned = false
     
-    func loadShanza(){
-        
-    }
-
 
     func loadRewardedAd(
         adId: String = "ca-app-pub-3940256099942544/1712485313"
