@@ -25,6 +25,9 @@ struct NativeTemplateView: UIViewRepresentable {
           options: nil)?.first as! NativeAdView
     }
 
+    func loadKrishma(){
+        print("krishma....")
+    }
     func updateUIView(_ nativeAdView: NativeAdView, context: Context) {
         
        guard let nativeAd = nativeViewModel.ad else { return }
