@@ -18,7 +18,7 @@ final class RewardedAdHandler: NSObject, ObservableObject, FullScreenContentDele
     private var earned = false
     
     func loadShanza(){
-        
+        print("hello shanzah")
     }
 
 
