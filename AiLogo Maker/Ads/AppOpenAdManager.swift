@@ -14,6 +14,9 @@ class AppOpenAdManager: NSObject, FullScreenContentDelegate, ObservableObject {
         var loadTime: Date?
         var isLoadingAd = false
     
+    func loadMuniba(){
+        print("added")
+    }
 
         func loadAd() {
             guard !isLoadingAd && !isAdAvailable() else { return }
