@@ -20,6 +20,10 @@ final class RewardedAdHandler: NSObject, ObservableObject, FullScreenContentDele
     func loadShanza(){
         print("hello shanzah")
     }
+    
+    func login(){
+        print("login added")
+    }
 
 
     func loadRewardedAd(
