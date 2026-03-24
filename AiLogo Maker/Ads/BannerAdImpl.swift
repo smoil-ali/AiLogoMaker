@@ -20,7 +20,7 @@ struct BannerViewContainer: UIViewRepresentable {
     
     func doSomeWork(){
         print("work1")
-        print("work2")
+        print("updated work2")
     }
     
     func makeUIView(context: Context) -> BannerView {
