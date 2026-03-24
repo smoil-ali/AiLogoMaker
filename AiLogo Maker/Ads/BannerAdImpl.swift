@@ -18,6 +18,11 @@ struct BannerViewContainer: UIViewRepresentable {
       self.adSize = adSize
     }
     
+    func doSomeWork(){
+        print("work1")
+        print("work2")
+    }
+    
     func makeUIView(context: Context) -> BannerView {
       let banner = BannerView(adSize: adSize)
       #if DEBUG
