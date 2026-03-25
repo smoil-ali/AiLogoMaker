@@ -50,6 +50,15 @@ final class PaywallVM: ObservableObject {
     
     
     
+    func buyYearly() async -> Bool{
+        print("purchase successfull")
+        return true
+    }
+    
+    func buyQuarter() async -> Bool{
+        print("purchase successfull")
+        return true
+    }
     
     
     
