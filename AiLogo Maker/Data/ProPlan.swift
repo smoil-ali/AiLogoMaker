@@ -125,6 +125,8 @@ public final class ProSubscriptionManager: ObservableObject {
                 .weeklyTrial(id: 3,priceText: weeklyTrialPrice,subtitle: "")
               ]
         } catch {
+            
+            print("2")
             let msg = "Failed to load products: \(error.localizedDescription)"
             print(msg)
         }
